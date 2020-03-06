@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/*******************MAIN PAGE CSS*****************************/
+body {
+  background: #4b0a66;
+}
+.header {
+  height: 100px;
+  background: #191919;
+  padding: 0 20px;
+  color: #fff;
+}
+.logo {
+  line-height: 100px;
+  float: left;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo a:visited {
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+}
+
+.navMenu {
+  float: right;
+  line-height: 100px;
+}
+
+.navMenu a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.navMenu a:hover {
+  color: #d8a5ec;
+  transition: 0.3s;
+}
+
+/******************* TABLE *****************************/
+.viewTable {
+  width: 650px;
+  margin: 0px auto;
+  border-collapse: collapse;
+  background-color: #191919;
+  margin-top: 100px;
+  position: center;
+}
+.viewTable th {
+  border: 1px solid #ddd;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: 191919;
+  color: white;
+}
+
+.viewTable th a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.viewTable th a:hover {
+  color: #d8a5ec;
+}
+
+.viewTable th a:visited {
+  color: #fff;
+}
+/******************* TABLE END *****************************/

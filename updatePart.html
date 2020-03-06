@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/updatePart.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h2 class="logo"><a href="home.html">Picker Part</a></h2>
+      <ul class="navMenu">
+        <a href="login.html">Login</a>
+        <a href="addpart.html">Add Part</a>
+        <a href="deletePart.html">Delete Part</a>
+        <a href="updatePart.html">Update Part</a>
+        <a href="viewParts.html">View Parts</a>
+      </ul>
+    </div>
+    <!-- The form is there, its hidden by the second form. Needs JSP -->
+    <form class="upBox" action="" method="POST">
+      <h1>Update Part</h1>
+      <select class="selectCSS">
+        <option value="0">Select Course ID</option>
+        <option value="1">Select Course 1</option>
+        <option value="2">Select Course 2</option>
+        <option value="3">Select Course 3</option>
+        <option value="4">Select Course 4</option>
+      </select>
+      <input type="submit" name="upBtn" value="Load Course Info" />
+    </form>
+    <!-- Two forms on screen, only issuse is upBox2 is covering it, for now. Need
+    to add JSP info -->
+    <form class="upBox2" action="" method="post">
+      <h1>Update Info</h1>
+      <input type="text" name="partID" placeholder="Part ID" />
+      <input type="text" name="partName" placeholder="Part Name" />
+      <input type="text" name="partManu" placeholder="Part Manufacturer" />
+      <input type="submit" name="upBtn2" value="Update Info" />
+    </form>
+
+    <!-- Not sure if this is even doing what I need. Only used on the first form -->
+    <script>
+      document.addEventListener("click", closeAllSelect);
+    </script>
+  </body>
+</html>

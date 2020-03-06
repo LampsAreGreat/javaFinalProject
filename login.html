@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/loginStyles.css" />
+  </head>
+  <body>
+    <form class="loginBox" action="index.html" method="post">
+      <h1>Login</h1>
+      <input type="text" name="uname" placeholder="DeathStar Username" />
+      <input type="password" name="password" placeholder="Password" id="pass" />
+      <input type="checkbox" onclick="showPass()" />Show Password
+      <input type="submit" name="loginBtn" placeholder="Login" />
+    </form>
+
+    <script>
+      function showPass() {
+        let pass = document.getElementById("pass");
+        if (pass.type === "password") {
+          pass.type = "text";
+        } else {
+          pass.type = "password";
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/*******************MAIN PAGE CSS*****************************/
+body {
+  background: #4b0a66;
+}
+.header {
+  height: 100px;
+  background: #191919;
+  padding: 0 20px;
+  color: #fff;
+}
+.logo {
+  line-height: 100px;
+  float: left;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo a:visited {
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+}
+
+.navMenu {
+  float: right;
+  line-height: 100px;
+}
+
+.navMenu a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.navMenu a:hover {
+  color: #d8a5ec;
+  transition: 0.3s;
+}
+
+.siteContent {
+  padding: 0 20px;
+}
+
+.siteContent img {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px 0;
+}
+
+.siteContent p {
+  text-align: center;
+}
+
+/*************** END MAIN PAGE CSS************************/
